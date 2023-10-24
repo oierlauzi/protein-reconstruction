@@ -6,7 +6,6 @@ import numpy as np
 import tensorflow as tf
 import seaborn as sns; sns.set(style="white", color_codes=True)
 import pandas as pd
-from matplotlib._png import read_png
 from cryoem.conversions import euler2quaternion, d_q
 from tensorflow.keras.losses import MAE
 
